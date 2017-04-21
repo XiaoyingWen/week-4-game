@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>simple crystal game</title>
+  <!-- Added link to the jQuery Library -->
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Revalia" rel="stylesheet">
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+<div class="panel panel-default">
+  <div class="panel-heading"><h1>Crystals Collector</h1>
+  </div>
+  <div class="panel-body">
+    <div class="container">
+    <div class="row">
+      <div class="col-xs-7 col-md-8">
+         <section class="main-section"> 
+          <div class="scores">
+            <h2>Number to Guess: <span id="numberToGuess"></span></h2>
+            <h2>Your Total Score: <span id="collectorTotalNumber"></span></h2>
+          </div>
+          <div class="row row-no-padding">
+            <div class="col-xs-3 col-md-3">
+              <a href="#" class="thumbnail">
+                <img class="crystal-image" src="assets/images/blue.jpg" alt="blue">
+              </a>
+            </div>
+            <div class="col-xs-3 col-md-3">
+              <a href="#" class="thumbnail">
+                <img class="crystal-image" src="assets/images/yellow.jpg" alt="gold">
+              </a>
+            </div>
+            <div class="col-xs-3 col-md-3">
+              <a hrefs="#" class="thumbnail">
+                <img class="crystal-image" src="assets/images/pink.jpg" alt="pink">
+              </a>
+            </div>
+            <div class="col-xs-3 col-md-3">
+              <a href="#" class="thumbnail">
+                <img class="crystal-image" src="assets/images/white.jpg" alt="white">
+              </a>
+            </div>
+          </div>
+         </section> 
+      </div>
+      <div class="col-xs-2 col-md-2" class="float-sm-right">
+        <section class="sidebar">
+          <h2>Wins: <span id="numberOfWins"></span></h2>
+          <h2>Losses: <span id="numberOfLoss"></span></h2>
+        </section>
+      </div>
+    </div> <!-- row -->
+    </div> <!-- container -->
+  </div> <!-- panel-body -->
+
+  <div class="panel-footer">
+    <footer>
+      Copyright &copy; 2017 Xiaoying Wen
+    </footer> 
+  </div>
+  </div> <!-- panel panel-default -->
+
+
+  <!-- JAVASCRIPT  -->
+  <!-- ========================================= -->
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>

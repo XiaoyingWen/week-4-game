@@ -1,0 +1,43 @@
+h2 {
+font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+  display: block;
+  font-weight: bold;
+}
+
+footer {
+  padding: 30px 0;
+  font-size: 12px;
+  color: #fff;
+  color: #ccc;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #4aaaa5;
+}
+
+.panel-footer{
+    position:absolute;
+    width:100%;
+    bottom:0;
+}
+
+.row-no-padding > [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.panel-default>.panel-heading {
+    background-color: #f0f5f5;
+}
+
+.main-section{
+    background-color: #66ccff;
+  margin-right: 25px;
+   padding: 30px;
+}
+
+.scores{
+     margin-bottom: 50px;
+}
